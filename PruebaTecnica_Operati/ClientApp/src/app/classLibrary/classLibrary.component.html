@@ -1,0 +1,27 @@
+<div class="row">
+    <h3 class="col-12 text-center">Biblioteca de clases</h3>
+    <div class="col-sm-12 col-md-6 mt-4">
+      <h4>Constructor de árboles</h4>
+      <label>Arreglo:</label>
+      <input type="text" class="form-control form-control-sm" [(ngModel)]="tree" />
+      <button type="button" (click)="onClickTree()">Verificar</button>
+      <div class="alert alert-success mt-1">
+        {{ resultTree }}
+      </div>
+      <p>['(1,2)','(2,4)','(5,7)','(7,2)','(9,5)']</p>
+      <p>['(1,2)','(3,2)','(2,12)','(5,2)']</p>
+    </div>
+    <div class="col-sm-12 col-md-6 mt-4">
+      <h4>Encuentra el nodo más lejano</h4>
+      <label>Arreglo:</label>
+      <input type="text" class="form-control form-control-sm" [(ngModel)]="node" />
+      <button type="button" (click)="onClickFarthest()">Verificar</button>
+      <div class="alert alert-success mt-1">
+        {{ resultNode }}
+      </div>
+      <p>[a-b,b-c,b-d]</p>
+      <p>[b-e,b-c,c-d,a-b,e-f]</p>
+      <p>[b-a,c-e,b-c,d-c]</p>
+      <p>[b-e,b-c,c-d,a-b,e-f,f-z,z-w,w-i]</p>
+    </div>
+</div>

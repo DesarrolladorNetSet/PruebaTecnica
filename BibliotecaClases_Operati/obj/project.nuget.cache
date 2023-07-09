@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ahCDtH6WV/H2VdK9EAju6Zh7Rh7unEDCm0p4gZ5sNxrWHFrWiX9MPPN0bcF5pYRpJOoArubBa+jzSQrhXoutg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Desar\\source\\repos\\PruebaTecnica_Operati\\BibliotecaClases_Operati\\BibliotecaClases_Operati.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Desar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Desar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
